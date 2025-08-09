@@ -46,21 +46,18 @@ Instead of simply predicting the next token, the model is trained to produce out
     - Adjusting the GPT-2 architecture if needed.
     - Fine-tuning to make GPT-2 act like a Q&A model.
 
----
-
 ## 📂 Repository Structure
 
-.
-├── Spam_and_NotSpam/
-│   ├── spam_not_spam.ipynb          # GPT-2 classification training (spam vs not spam)                                    
-│   └── gpt_download3.py          # Script to download the pre-trained GPT-2 model
-│   └── sms_spam_collection       # Data Folder 
-└── instruction_finetuning/
-    ├── instruction_finetuning.ipynb  # GPT-2 instruction fine-tuning notebook
-    ├── instruction_data/             # Data files (instruction → response pairs)
-    └── gpt_download3.py   
+**Spam_and_NotSpam/**  
+- `spam_not_spam.ipynb` (GPT-2 classification training — spam vs not spam)  
+- `gpt_download3.py` (Script to download the pre-trained GPT-2 model)  
+- `sms_spam_collection/` (Data folder)  
 
----
+**instruction_finetuning/**  
+- `instruction_finetuning.ipynb` (GPT-2 instruction fine-tuning notebook)  
+- `instruction_data/` (Data files: instruction → response pairs)  
+- `gpt_download3.py` (Script to download the pre-trained GPT-2 model)  
+
 
 ## 🚀 How to Use
 
@@ -68,11 +65,12 @@ Instead of simply predicting the next token, the model is trained to produce out
 ```bash
 git clone https://github.com/yourusername/fine-tuning-gpt2.git
 cd fine-tuning-gpt2
+```
 
 ## 🚀 Run the Desired Notebook
 
-For **classification**: Open `Spam_and_NotSpam/spam_not_spam.ipynb`  
-For **instruction tuning**: Open `instruction_finetuning/instruction_finetuning.ipynb`
+For **classification**: Open `Sapm&NotSpam/Spam&notSpam.ipynb`  
+For **instruction tuning**: Open `instruction finetuning/instruction finetuning.ipynb`
 
 ---
 
