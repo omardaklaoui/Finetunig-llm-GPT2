@@ -65,6 +65,7 @@ Instead of simply predicting the next token, the model is trained to produce out
 ```bash
 git clone https://github.com/yourusername/fine-tuning-gpt2.git
 cd fine-tuning-gpt2
+```
 
 ## 🚀 Run the Desired Notebook
 
