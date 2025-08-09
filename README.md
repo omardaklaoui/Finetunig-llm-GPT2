@@ -71,8 +71,8 @@ cd fine-tuning-gpt2
 
 ## 🚀 Run the Desired Notebook
 
-For **classification**: Open `Spam_and_NotSpam/spam_not_spam.ipynb`  
-For **instruction tuning**: Open `instruction_finetuning/instruction_finetuning.ipynb`
+For **classification**: Open `Sapm&NotSpam/spam_not_spam.ipynb`  
+For **instruction tuning**: Open `instruction finetuning/instruction_finetuning.ipynb`
 
 ---
 
