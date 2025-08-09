@@ -57,8 +57,8 @@ Instead of simply predicting the next token, the model is trained to produce out
 │   └── sms_spam_collection/         # Data Folder 
 └── instruction_finetuning/
     ├── instruction_finetuning.ipynb  # GPT-2 instruction fine-tuning notebook
-    ├── instruction_data/             # Data files (instruction → response pairs)
-    └── gpt_download3.py              # Script to download the pre-trained GPT-2 model
+    ├── instruction_data             # Data files (instruction → response pairs)
+    └── gpt_download3.py/            # Script to download the pre-trained GPT-2 model
 
 
 ---
